@@ -37,11 +37,11 @@ build/
 !**/src/test/**/build/
 **/.aws-sam/*
 **/.idea/*
-
+!**/src/resources/**/
 .classpath
 .project
 .settings/
 target/
 ### VS Code ###
 .vscode/
-**/application.properties
+src/main/resources/application.properties
